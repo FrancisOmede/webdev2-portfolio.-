@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+.navbar {
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 1% 1% 3% 1%;
+    background-color: dimgray;
+}
+.navbar a {
+    float: left;
+    font-family: "Muli", sans-serif;
+    text-decoration: none;
+    margin: 2% 2% 2% 2%;
+    padding: 1% 1% 1% 1%;
+    color: aliceblue;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 10%;
+    padding: 10px 5px 5px 5px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: dimgray;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 1OOpx;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 5;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.logo {
+    max-height: 30px;
+    max-width: 30px;
+    padding-left: 10px;
+}
+#fbsection {
+    display: block;
+    border-radius: 15px;
+    padding: 3% 2% 5% 2%;
+    margin: 2% 2% 2% 2%;
+    background: #1e4e70;
+}
+p {
+    font-size: 26px;
+    color: white;
+    margin: 1% 1% 1% 1%;
+}
+.regimage {
+    max-height: 250px;
+    max-width: 250px;
+    padding: 25px 10px 0px 40px;
+}
+h1 {
+    color: ghostwhite;
+    font-family: "Muli";
+}
+.reg {
+    color: black;
+    font-family: "Muli";
+}
+#fbsection2 {
+    display: block;
+    width: 60%;
+    padding: 3% 2% 5% 2%;
+    margin: 1% 0% 1% 20%;
+    border-radius: 15px;
+    background: #006bb3;
+}
+video {
+    max-height: 300px;
+    max-width: 300px;
+}
+.htu {
+    display: inline-block;
+    color: ivory;
+    font-size: 25px;
+}
+h3 {
+    color: black;
+    font-family: "Cairo";
+    font-size: 70px;
+    margin-left: 2%;
+}
+#welcome {
+    display: block;
+    background: lightgray;
+    border-radius: 15px;
+    margin: 5% 5% 1% 5%;
+    padding: 2% 2% 2% 5%;
+}
+#facebook {
+    display: inline-block;
+    background: #1a53ff;
+    font-size: 35px;
+    border-radius: 20px;
+    margin-left: 5%;
+    width: 12%;
+    height: 100px;
+}
+#snapchat {
+    display: inline-block;
+    background: #e6e600;
+    font-size: 35px;
+    border-radius: 20px;
+    margin-left: 7%;
+    width: 12%;
+    height: 100px;
+}
+#twitter {
+    display: inline-block;
+    background: #00ccff;
+    font-size: 35px;
+    border-radius: 20px;
+    margin-left: 7%;
+    width: 12%;
+    height: 100px;
+}
+#whatsapp {
+    display: inline-block;
+    background: #29a329;
+    font-size: 35px;
+    border-radius: 20px;
+    margin-left: 7%;
+    width: 12%;
+    height: 100px;
+}
+#instagram {
+    display: inline-block;
+    background: #e6005c;
+    font-size: 35px;
+    border-radius: 20px;
+    margin-left: 7%;
+    width: 12%;
+    height: 100px;
+}
+#space {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.fotter {
+    background: dimgray;
+    border-radius: 10px;
+    margin: 20% 0% 0% 0%;
+    height: 300px;
+}
+.footcontainer {
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+}
+.item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Fjalla+One";
+    text-align: center;
+}
+#Register {
+    margin: 5% 0% 10% 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    max-height: 40%;
+    max-width: 80%;
+    padding-left: 6%;
+}
+.none {
+    text-decoration: none;
+}
+.video {
+    width: 12%;
+    display: inline-block;
+    padding: 1% 3% 1% 1%;
+    margin: 1% 0% 1% 5%;
+    border-radius: 15px;
+    background: #006bb3;
+}
+h2 {
+    padding: 8% 1% 1% 15%;
+    font-size: 50px;
+    font-family: "Cairo";
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 65%;
+    height: 70%;
+    margin: 1% 1% 1% 20%;
+}
+td,
+th,
+tr {
+    border: 3px solid #dddddd;
+    border-radius: 15px;
+    padding: 5px;
+}
+.resize-table {
+    margin: 1% 1% 1% 30%;
+    max-height: 110px;
+    max-width: 110px;
+}
+ol {
+    padding: 3% 5% 5% 5%;
+    margin: 2% 15% 15% 15%;
+}
+#scsection {
+    display: block;
+    border-radius: 15px;
+    padding: 3% 2% 5% 2%;
+    margin: 2% 2% 2% 2%;
+    background: #d9d926;
+}
+#trsection {
+    display: block;
+    border-radius: 15px;
+    padding: 3% 2% 5% 2%;
+    margin: 2% 2% 2% 2%;
+    background: #1a8cff;
+}
+#wasection {
+    display: block;
+    border-radius: 15px;
+    padding: 3% 2% 5% 2%;
+    margin: 2% 2% 2% 2%;
+    background: #00b300;
+}
+#imsection {
+    display: block;
+    border-radius: 15px;
+    padding: 15px 0px 15px 5px;
+    margin: 15px 0px 15px 5px;
+    background: #e6005c;
+}
+#scsection2 {
+    padding: 3% 2% 5% 2%;
+    margin: 1% 1% 1% 20%;
+    display: block;
+    width: 60%;
+    border-radius: 15px;
+    background: #e6e600;
+}
+#wasection2 {
+    display: block;
+    width: 60%;
+    padding: 3% 2% 5% 2%;
+    margin: 1% 0% 1% 20%;
+    border-radius: 15px;
+    background: #00802b;
+}
+.resize {
+    max-height: 320px;
+    max-width: 320px;
+}
+.sctext {
+    font-family: "Muli";
+    font-size: 26px;
+    color: black;
+    padding: 1% 1% 1% 1%;
+}
+.tabletx {
+    margin: 1% 1% 1% 28%;
+    max-height: 100px;
+    max-width: 100px;
+}
+.tabletext {
+    color: black;
+    font-family: "Muli";
+    font-size: 25px;
+    margin: 1% 1% 1% 30%;
+}
+#fbsection3 {
+    margin: 1% 5% 1% 1%;
+}
+#fbsection4 {
+    display: block;
+    border-radius: 15px;
+    padding: 3% 2% 5% 2%;
+    margin: 2% 15% 15% 15%;
+    background: #66b3ff;
+}
+#fbsection5 {
+    display: block;
+    border-radius: 15px;
+    padding: 3% 2% 5% 2%;
+    margin: 2% 15% 15% 15%;
+}
+.warning {
+    margin: 0% 0% 0% 35%;
+    max-height: 195px;
+    max-width: 195px
+}
+#btt {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+.welcome {
+    font-family: "Cairo";
+    color: black;
+}
+.social {
+    text-decoration: none;
+    text-decoration-color: white;
+    font-size: 20px;
+}
+#scsection4 {
+    display: block;
+    border-radius: 15px;
+    padding: 3% 2% 5% 2%;
+    margin: 2% 15% 15% 15%;
+    background: #e3d800;
+}
+#trsection4 {
+    display: block;
+    border-radius: 15px;
+    padding: 3% 2% 5% 2%;
+    margin: 2% 15% 15% 15%;
+    background: #1cbfff;
+}
+#wasection4 {
+    display: block;
+    border-radius: 15px;
+    padding: 3% 2% 5% 2%;
+    margin: 2% 15% 15% 15%;
+    background: #00802b;
+}
+.wavideo {
+    padding: 1% 5% 1% 5%;
+    max-height: 700px;
+    max-width: 700px;
+}
+.wavideo2 {
+    display: block;
+    margin: 10% 15% 1% 20%;
+    padding: 1% 1% 1% 1%;
+    height: 10%;
+    width: 60%;
+    border-radius: 15px;
+    background: #00802b;
+}
+#imsection4 {
+    display: block;
+    border-radius: 15px;
+    padding: 3% 2% 5% 2%;
+    margin: 2% 15% 15% 15%;
+    background: #ff4d94;
+}
+.imvideo {
+    width: 80%;
+    display: block;
+    padding: 1% 3% 1% 1%;
+    margin: 10% 0% 1% 40%;
+    border-radius: 15px;
+    background: #006bb3;
+}
+#imsection2 {
+    display: block;
+    width: 60%;
+    padding: 3% 2% 5% 2%;
+    margin: 1% 0% 1% 20%;
+    border-radius: 15px;
+    background: #cc0052;
+}
+.imvideo2 {
+    display: block;
+    margin: 10% 15% 1% 20%;
+    padding: 1% 1% 1% 1%;
+    max-height: 15%;
+    max-width: 80%;
+    border-radius: 15px;
+    background: #cc0052;
+}
+}
+.fbvideo {
+    height: 100px;
+    width: 100px;
+}
+.scvideo {
+    display: block;
+    margin: 10% 5% 1% 38%;
+    padding: 1% 1% 1% 5%;
+    height: 10%;
+    width: 20%;
+    border-radius: 15px;
+    background: #e6e600;
+}
+.fbvideo2 {
+    display: block;
+    margin: 10% 15% 1% 27%;
+    padding: 1% 1% 1% 12%;
+    height: 10%;
+    width: 30%;
+    border-radius: 15px;
+    background: #006bb3;
+}
+#trsection2 {
+    display: block;
+    margin: 2% 15% 1% 20%;
+    padding: 1% 1% 1% 1%;
+    height: 10%;
+    width: 60%;
+    border-radius: 15px;
+    background: #00b8e6;
+}
+.trvideo2 {
+    height: 350px;
+    width: 350px;
+}
+.trvideo {
+    display: block;
+    margin: 10% 15% 1% 27%;
+    padding: 1% 1% 1% 10%;
+    height: 10%;
+    width: 30%;
+    border-radius: 15px;
+    background: #00b8e6;
+}
+#trsection5 {
+    display: block;
+    border-radius: 15px;
+    padding: 3% 2% 5% 2%;
+    margin: 2% 15% 10% 15%;
+}
+#sitemap {
+    margin: 5% 50% 5% 45%;
+}
+.row1 {
+    display: inline-block;
+    margin: 0% 0% 0% 5%;
+}
+.row2 {
+    display: inline-block;
+    margin: 5% 0% 4% 5%;
+}
+.intro {
+    margin: 20% 0% 0% 10%;
+}
+#ulfbsection {
+    display: block;
+    border-radius: 15px;
+    padding: 3% 2% 5% 2%;
+    margin: 2% 2% 2% 2%;
+    background: #003d99;
+}
+#ulscsection {
+        display: block;
+    border-radius: 15px;
+    padding: 3% 2% 5% 2%;
+    margin: 2% 2% 2% 2%;
+    background: #cccc00;
+}
+#ultrsection {
+          display: block;
+    border-radius: 15px;
+    padding: 3% 2% 5% 2%;
+    margin: 2% 2% 2% 2%;
+    background: #4d94ff;
+}
+#ulwasection {
+    display: block;
+    border-radius: 15px;
+    padding: 3% 2% 5% 2%;
+    margin: 2% 2% 2% 2%;
+    background: #008000;
+}
+#ulimsection {
+         display: block;
+    border-radius: 15px;
+    padding: 3% 2% 5% 2%;
+    margin: 2% 2% 2% 2%;
+    background: #e600ac;
+}
+.footer-copyright {
+    position: absolute;
+    bottom: 80%;
+}

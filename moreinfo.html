@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Fjalla+One&family=Muli:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Home<img class="logo" src="Logos/house-4.png"></a>
+        <a href="facebook.html">Facebook<img class="logo" src="Logos/social-media-facebook.png"></a>
+        <a href="snapchat.html">Snapchat<img class="logo" src="Logos/social-media-snapchat.png"></a>
+        <a href="twitter.html">Twitter<img class="logo" src="Logos/social-media-twitter.png"></a>
+        <a href="whatsapp.html">Whatsapp<img class="logo" src="Logos/whatsapp.png"></a>
+        <a href="instagram.html">Instagram<img class="logo" src="Logos/instagram.png"></a>
+        <div class="dropdown">
+            <a>Help<img class="logo" src='Logos/question-help-square.png' </a><button class="dropbtn">
+                </button>
+                <div class="dropdown-content">
+                    <a href="form.html">Contact</a>
+                    <a href="moreinfo.html">Useful Links</a>
+                    <a href="About.html">About</a>
+                </div>
+        </div>
+    </div>
+    <h3>Useful Links</h3>
+    <div id="ulfbsection">
+        <h1>Facebook</h1>
+        <a class="none" href="https://www.facebook.com/communitystandards/">
+            <p>Community Standards
+            </p>
+        </a> <a class="none" href="https://www.facebook.com/communitystandards/cybersecurity">
+            <p>Cybersecurity</p>
+        </a>
+        <a class="none" href="https://www.facebook.com/settings?tab=privacy">
+            <p class="none">Privacy</p>
+        </a>
+    </div>
+    <div id="ulscsection">
+        <h1>Snapchat</h1>
+        <a class="none" href="https://www.snap.com/en-GB/privacy/privacy-center/">
+            <p>Privacy
+            </p>
+        </a> <a class="none" href="https://support.snapchat.com/en-US">
+            <p>Support</p>
+        </a> <a class="none" href="https://www.snap.com/en-US/safety/safety-center">
+            <p>Safety on Snapchat</p>
+        </a>
+        <a class="none" href="https://www.snap.com/en-US/community-guidelines">
+            <p class="none">Community Guidelines</p>
+        </a>
+    </div>
+    <div id="ultrsection">
+        <h1> Twitter</h1>
+        <a class="none" href="https://twitter.com/en/privacy">
+            <p>Privacy Policy
+            </p>
+        </a> <a class="none" href="https://www.facebook.com/communitystandards/cybersecurity">
+            <p>Twitter Terms of Service</p>
+    </div>
+    <div id="ulwasection">
+        <h1>whatsapp</h1>
+        <a class="none" href="https://www.whatsapp.com/privacy">
+            <p>Privacy
+            </p>
+        </a> <a class="none" href="https://www.whatsapp.com/security/">
+            <p>Security</p>
+        </a>
+    </div>
+    <div id="ulimsection">
+        <h1>Instagram</h1>
+        <a class="none" href="https://help.instagram.com/477434105621119/?helpref=hc_fnav&bc[0]=Instagram%20Help&bc[1]=Privacy%20and%20Safety%20Center">
+            <p>Community Guidelines
+            </p>
+        </a> <a class="none" href="https://www.facebook.com/communitystandards/cybersecurity">
+            <p>Safety Tips</p>
+        </a>
+        <a class="none" href="https://help.instagram.com/377830165708421/?helpref=hc_fnav&bc[0]=Instagram%20Help&bc[1]=Privacy%20and%20Safety%20Center">
+            <p class="none">Privacy</p>
+        </a>
+    </div>
+
+    <button onclick="topFunction()" id="btt" title="Go back to top">click here</button>
+    <script>
+        var mybutton = document.getElementById("btt");
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+</body>
